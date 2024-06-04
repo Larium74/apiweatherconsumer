@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    background-color: #2785ea;
+    border-radius: 30px;
+}
+
+.formulario {
+    background-color: #2785ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2785ea;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+select {
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+input {
+    width: 60%;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.botonObtener {
+    width: 60%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 0px;
+
+    
+}
+
+option {
+    font-size: 10px;
+}
+
+p {
+    font-size: 42px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.clima-api {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.clima-api {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.temp-min {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+.temp-max{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+
+.botonObtener {
+    color: white;
+}
+
+form {
+    background-color: transparent;
+}
+
+.formulario {
+    background-color: transparent;
+    box-shadow: -20px 20px 15px;
+    border-radius: 20px;
+    border-top: 6px solid white;
+}
+
+p {
+    font-size: 20px;
+;
+}
+
+.temp-max{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.temp-min{
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.clima-api {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+h2 {
+    margin-top: 40px;
+}
+
+.temp-max {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.botonObtener {
+    background-color: #dbd81a;
+    color: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima en tiempo real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-cont">
+        <div class="contenedor">
+            <h2>Conoce el clima en <span class="ciudad-nombre"></span> </h2>
+            <img src="./imgs/icon.png" alt="" class="icon">
+            <p class="clima-api"></p>
+            <p>Temperatura mínima </p>
+            
+            <span class="temp-min"></span>
+            <p>Temperatura máxima</p>
+            <span class="temp-max"></span>
+        </div>
+
+        <div class="formulario">
+            <form action="" method="POST">
+                <input type="text" placeholder="Ingresa la ciudad" class="ciudad-input">
+                <select name="" id="paises" class="paises">
+                    <option value="ARG">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="MX">México</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="PE">Perú</option>
+                </select>
+                <input type="submit" class="botonObtener" value="Obtener Clima">
+            </form>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>
